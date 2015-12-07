@@ -13,6 +13,8 @@
 		930764091C16447600135834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930764081C16447600135834 /* Assets.xcassets */; };
 		9307640C1C16447600135834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9307640A1C16447600135834 /* LaunchScreen.storyboard */; };
 		930764171C16447600135834 /* TJExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764161C16447600135834 /* TJExtensionTests.swift */; };
+		930764221C1644A300135834 /* TJViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764211C1644A300135834 /* TJViewExtension.swift */; };
+		930764251C164ED100135834 /* TJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764241C164ED100135834 /* TJColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		930764121C16447600135834 /* TJExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930764161C16447600135834 /* TJExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJExtensionTests.swift; sourceTree = "<group>"; };
 		930764181C16447600135834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930764211C1644A300135834 /* TJViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJViewExtension.swift; sourceTree = "<group>"; };
+		930764241C164ED100135834 /* TJColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				930764011C16447600135834 /* AppDelegate.swift */,
 				930764031C16447600135834 /* ViewController.swift */,
+				930764231C1644AA00135834 /* Extensions */,
 				930764051C16447600135834 /* Main.storyboard */,
 				930764081C16447600135834 /* Assets.xcassets */,
 				9307640A1C16447600135834 /* LaunchScreen.storyboard */,
@@ -94,6 +99,15 @@
 				930764181C16447600135834 /* Info.plist */,
 			);
 			path = TJExtensionTests;
+			sourceTree = "<group>";
+		};
+		930764231C1644AA00135834 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				930764211C1644A300135834 /* TJViewExtension.swift */,
+				930764241C164ED100135834 /* TJColorExtension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				930764041C16447600135834 /* ViewController.swift in Sources */,
+				930764221C1644A300135834 /* TJViewExtension.swift in Sources */,
 				930764021C16447600135834 /* AppDelegate.swift in Sources */,
+				930764251C164ED100135834 /* TJColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
