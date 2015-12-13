@@ -1,5 +1,5 @@
 //
-//  TJColorExtension.swift
+//  TJColorExtensions.swift
 //  TJExtension
 //
 //  Created by tajika on 2015/12/08.

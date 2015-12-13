@@ -13,8 +13,8 @@
 		930764091C16447600135834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930764081C16447600135834 /* Assets.xcassets */; };
 		9307640C1C16447600135834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9307640A1C16447600135834 /* LaunchScreen.storyboard */; };
 		930764171C16447600135834 /* TJExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764161C16447600135834 /* TJExtensionTests.swift */; };
-		930764271C17212A00135834 /* TJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764261C17212A00135834 /* TJColorExtension.swift */; };
-		930764291C17213300135834 /* TJViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764281C17213300135834 /* TJViewExtension.swift */; };
+		930764271C17212A00135834 /* TJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764261C17212A00135834 /* TJColorExtensions.swift */; };
+		930764291C17213300135834 /* TJViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764281C17213300135834 /* TJViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		930764121C16447600135834 /* TJExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930764161C16447600135834 /* TJExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJExtensionTests.swift; sourceTree = "<group>"; };
 		930764181C16447600135834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		930764261C17212A00135834 /* TJColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJColorExtension.swift; path = TJExtension/TJColorExtension.swift; sourceTree = "<group>"; };
-		930764281C17213300135834 /* TJViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJViewExtension.swift; path = TJExtension/TJViewExtension.swift; sourceTree = "<group>"; };
+		930764261C17212A00135834 /* TJColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJColorExtensions.swift; path = TJExtension/TJColorExtensions.swift; sourceTree = "<group>"; };
+		930764281C17213300135834 /* TJViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJViewExtensions.swift; path = TJExtension/TJViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		930764231C1644AA00135834 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				930764261C17212A00135834 /* TJColorExtension.swift */,
-				930764281C17213300135834 /* TJViewExtension.swift */,
+				930764261C17212A00135834 /* TJColorExtensions.swift */,
+				930764281C17213300135834 /* TJViewExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -213,8 +213,8 @@
 			files = (
 				930764041C16447600135834 /* ViewController.swift in Sources */,
 				930764021C16447600135834 /* AppDelegate.swift in Sources */,
-				930764271C17212A00135834 /* TJColorExtension.swift in Sources */,
-				930764291C17213300135834 /* TJViewExtension.swift in Sources */,
+				930764271C17212A00135834 /* TJColorExtensions.swift in Sources */,
+				930764291C17213300135834 /* TJViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

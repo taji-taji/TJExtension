@@ -1,5 +1,5 @@
 //
-//  TJViewExtension.swift
+//  TJViewExtensions.swift
 //  TJExtension
 //
 //  Created by tajika on 2015/12/08.
@@ -64,6 +64,40 @@ extension UIView {
             self.layer.addSublayer(rightLine)
         }
 
+    }
+    
+    @IBInspectable
+    var borderWidth: CGFloat {
+        get {
+            return self.layer.borderWidth
+        }
+        set {
+            self.layer.borderWidth = newValue
+        }
+    }
+    
+    @IBInspectable
+    var borderColor: UIColor? {
+        get {
+            if let _ = self.layer.borderColor {
+                return UIColor(CGColor: self.layer.borderColor!)
+            } else {
+                return nil
+            }
+        }
+        set {
+            self.layer.borderColor = newValue?.CGColor
+        }
+    }
+    
+    @IBInspectable
+    var cornerRadius: CGFloat {
+        get {
+            return self.layer.cornerRadius
+        }
+        set {
+            self.layer.cornerRadius = newValue
+        }
     }
     
 }
