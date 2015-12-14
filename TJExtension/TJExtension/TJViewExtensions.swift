@@ -20,7 +20,7 @@ extension UIView {
     func border(borderWidth borderWidth: CGFloat, borderColor: UIColor?, borderRadius: CGFloat?) {
         self.layer.borderWidth = borderWidth
         self.layer.borderColor = borderColor?.CGColor
-        if borderRadius != nil {
+        if let _ = borderRadius {
             self.layer.cornerRadius = borderRadius!
         }
         self.layer.masksToBounds = true
@@ -35,7 +35,7 @@ extension UIView {
         
         self.layer.sublayers = nil
         
-        if borderColor != nil {
+        if let _ = borderColor {
             topLine.backgroundColor = borderColor!.CGColor
             leftLine.backgroundColor = borderColor!.CGColor
             bottomLine.backgroundColor = borderColor!.CGColor
@@ -81,9 +81,8 @@ extension UIView {
         get {
             if let _ = self.layer.borderColor {
                 return UIColor(CGColor: self.layer.borderColor!)
-            } else {
-                return nil
             }
+            return nil
         }
         set {
             self.layer.borderColor = newValue?.CGColor
