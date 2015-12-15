@@ -15,7 +15,7 @@
 		930764171C16447600135834 /* TJExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764161C16447600135834 /* TJExtensionTests.swift */; };
 		930764271C17212A00135834 /* TJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764261C17212A00135834 /* TJColorExtensions.swift */; };
 		930764291C17213300135834 /* TJViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930764281C17213300135834 /* TJViewExtensions.swift */; };
-		93DBC6F01C1E2FD90078AD62 /* TJLabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DBC6EF1C1E2FD90078AD62 /* TJLabelExtensions.swift */; };
+		939562EE1C20D570000D90D0 /* TJLabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939562ED1C20D570000D90D0 /* TJLabelExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		930764181C16447600135834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930764261C17212A00135834 /* TJColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJColorExtensions.swift; path = TJExtension/TJColorExtensions.swift; sourceTree = "<group>"; };
 		930764281C17213300135834 /* TJViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJViewExtensions.swift; path = TJExtension/TJViewExtensions.swift; sourceTree = "<group>"; };
-		93DBC6EF1C1E2FD90078AD62 /* TJLabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJLabelExtensions.swift; sourceTree = "<group>"; };
+		939562ED1C20D570000D90D0 /* TJLabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJLabelExtensions.swift; path = TJExtension/TJLabelExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			children = (
 				930764261C17212A00135834 /* TJColorExtensions.swift */,
 				930764281C17213300135834 /* TJViewExtensions.swift */,
-				93DBC6EF1C1E2FD90078AD62 /* TJLabelExtensions.swift */,
+				939562ED1C20D570000D90D0 /* TJLabelExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			files = (
 				930764041C16447600135834 /* ViewController.swift in Sources */,
 				930764021C16447600135834 /* AppDelegate.swift in Sources */,
-				93DBC6F01C1E2FD90078AD62 /* TJLabelExtensions.swift in Sources */,
+				939562EE1C20D570000D90D0 /* TJLabelExtensions.swift in Sources */,
 				930764271C17212A00135834 /* TJColorExtensions.swift in Sources */,
 				930764291C17213300135834 /* TJViewExtensions.swift in Sources */,
 			);
