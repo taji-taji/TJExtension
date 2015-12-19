@@ -13,18 +13,11 @@ Useful extensions for UIKit framework.
 - `convenience init(hex: Int, alpha: CGFloat)`
 - `convenience init(intRed: Int, green: Int, blue: Int, alpha: CGFloat)`
 
-### Methods
-
-- `func setAlpha(alpha: CGFloat) -> UIColor`
-
 ### Usage
 
 ```swift
 let redColor = UIColor.init(hex: 0xFF0000, alpha: 1.0)
-let transparentRedColor = redColor.setAlpha(alpha: 0.6)
-
 let greenColor = UIColor(intRed: 0, green: 255, blue: 0, alpha: 1.0)
-let transparentGreenColor = greenColor.setAlpha(alpha: 0.3)
 ```
 
 ## TJViewExtensins
