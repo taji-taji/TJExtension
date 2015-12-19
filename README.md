@@ -40,9 +40,20 @@ let transparentGreenColor = greenColor.setAlpha(alpha: 0.3)
 - `var borderColor: UIColor?`
 - `var cornerRadius: CGFloat`
 
+![TJViewExtensions1](https://raw.githubusercontent.com/wiki/taji-taji/TJExtension/images/TJViewExtensions1.png)
+
 ### Usage
 
 ```swift
 let borderedView = UIView(frame: CGRectMake(0.0, 0.0, 200, 50))
 borderedView.border([.Top, .Right], borderWidth: 3.5, borderColor: borderColor)
 ```
+
+
+## TJLabelExtensions
+
+### Inspectable Variables
+
+- `var underline: Bool`
+
+![TJLabelExtensions1](https://raw.githubusercontent.com/wiki/taji-taji/TJExtension/images/TJLableExtensions1.png)
