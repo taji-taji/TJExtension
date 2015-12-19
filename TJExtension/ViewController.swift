@@ -17,13 +17,12 @@ class ViewController: UIViewController {
         
         // ビューの背景色を指定
         borderedView.backgroundColor = UIColor(hex: 0x859495, alpha: 1.0)
-        //borderedView.backgroundColor = UIColor.redColor().setAlpha(alpha: 0.2)
     }
     
     override func viewDidLayoutSubviews() {
         // 線の色をUIColorのExtensionで指定
         let borderColor = UIColor(intRed: 255, green: 30, blue: 20, alpha: 1.0)
-        
+
         // TopとRightに線をつける
         borderedView.border([.Top, .Right], borderWidth: 3.5, borderColor: borderColor)
     }
