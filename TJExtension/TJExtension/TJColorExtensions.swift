@@ -21,4 +21,14 @@ extension UIColor {
         self.init(red: CGFloat(intRed) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: alpha)
     }
     
+    func setAlpha(alpha a: CGFloat) -> UIColor {
+        var red: CGFloat = 1.0
+        var green: CGFloat = 1.0
+        var blue: CGFloat = 1.0
+        var alpha: CGFloat = 1.0
+        self.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+        
+        return UIColor(red: red, green: green, blue: blue, alpha: a)
+    }
+
 }

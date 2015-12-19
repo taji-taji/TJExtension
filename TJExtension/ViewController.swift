@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         // ビューの背景色を指定
         borderedView.backgroundColor = UIColor(hex: 0x859495, alpha: 1.0)
+        //borderedView.backgroundColor = UIColor.redColor().setAlpha(alpha: 0.2)
     }
     
     override func viewDidLayoutSubviews() {

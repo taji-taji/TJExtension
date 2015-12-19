@@ -34,6 +34,7 @@ extension UIView {
         let rightLine = CALayer()
         
         self.layer.sublayers = nil
+        self.layer.masksToBounds = true
         
         if let _ = borderColor {
             topLine.backgroundColor = borderColor!.CGColor
